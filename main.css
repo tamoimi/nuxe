@@ -17,10 +17,10 @@ body {
 li {list-style: none;}
 a {text-decoration: none; color: #333;}
 
-/* html.has-scroll-smooth {
+html.has-scroll-smooth {
 	backface-visibility: hidden;
 	transform: translateZ(0);
-} */
+}
 [data-load-container] {
 	position: fixed;
 	top: 0;
