@@ -1,12 +1,19 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
-    smooth: true,
-});
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('[data-scroll-container]'),
+//     smooth: true,
+// });
 
-var currentScrollContainer =  document.querySelector("[data-scroll-container]");
-imagesLoaded(currentScrollContainer, { background: true }, function () {
-           scroll.update();
-});
+window.addEventListener("load", () => {
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector("[data-scroll-container]"),
+      smooth: true,
+      multiplier: 0.75,
+      scrollFromAnywhere: true,
+    });
+  });
+  setTimeout(() => {
+    scroll.update();
+  }, 5000);
   
 // const countBtn = document.querySelector('button')
 // const sum = document.querySelector('#cart')
