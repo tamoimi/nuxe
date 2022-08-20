@@ -2,6 +2,11 @@ const scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
 });
+
+var currentScrollContainer =  document.querySelector("[data-scroll-container]");
+imagesLoaded(currentScrollContainer, { background: true }, function () {
+           scroll.update();
+});
   
 // const countBtn = document.querySelector('button')
 // const sum = document.querySelector('#cart')
