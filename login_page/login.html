@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers | Nuxe</title>
+    <link rel="stylesheet" href="./login.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+    <script src="./login.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <header class="inner">
+            <div class="cart"><a href="#">
+              CART(<span id="cart"></span>) 
+            </a></div> 
+            <div class="logo"><a href="../index.html"><img src="../images/logo.png" alt="logo" width="100px"></a></div>
+            <div class="login"><a href="./login.html">LOGIN</a></div>
+
+        </header>
+        <div class="nav">
+        <ul class="menu">
+            <li>
+                <a href="#">ABOUT NUXE</a>
+                <ul class="menu_box">
+                    <li><a href="#">눅스 이야기</a></li>
+                    <li><a href="#">눅스의 약속</a></li>
+                    <li><a href="#">에코 프랜들리</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">PRODUCTS</a>
+                <ul class="menu_box">
+                    <li><a href="#">제품 라인 & 고민별</a></li>
+                    <li><a href="#">제품 유형별</a></li>
+                    <li><a href="#">눅스 제품맵</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">SPAS</a>
+                <ul class="menu_box">
+                    <li><a href="#">스파 소개</a></li>
+                    <li><a href="#">눅스 스파</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">COMMUNITY</a>
+                <ul class="menu_box">
+                    <li><a href="#">이용 후기</a></li>
+                    <li><a href="#">눅스 이벤트</a></li>
+                    <li><a href="#">눅스 소식</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">FAQs</a>
+                <ul class="menu_box">
+                    <li><a href="#">자주하는 질문</a></li>
+                    <li><a href="#">질문과 답변</a></li>
+                    <li><a href="#">매장 안내</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">MY PAGE</a>
+                <ul class="menu_box">
+                    <li><a href="#">마이 페이지</a></li>
+                    <li><a href="#">질문과 답변</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div><!--nav-->
+    </header>
+
+
+
+    <div class="login_wrap">
+    <div class="login_img">
+        <img src="../images/nuxe_login_img.jpg" alt="" width="88%">
+    </div>
+    <div class="container">
+        <h2>LOGIN</h2>
+        <form action="" name="login">
+            <div class="login_input">
+                <input type="text" id="user_id" name="user_id" class="id" placeholder="아이디" autofocus> </br></br>
+                <!-- name은 id와 같은걸로 적어주면 된다 -->
+                <input type="" id="user_pw" name="user_pw" class="pw" placeholder="비밀번호">
+            </div><!--login_input-->
+            <div class="log_btn">
+                <button type="submit" class="logbtn">로그인</button>
+                <button type="submit" class="joinBtn">회원가입</button>
+            </div>
+        </form>
+    </div><!--container-->
+    </div><!--login_wrap-->
+</body>
+</html>
