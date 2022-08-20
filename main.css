@@ -340,7 +340,7 @@ header .inner {
 
 /* footer */
 .footer_warp {
-  width: 100%; height: 300px;
+  width: 100%; height: 400px;
   background-color: rgb(6, 67, 56);
   color: white;
 }
@@ -355,7 +355,7 @@ header .inner {
 }
 .footer .copyright {
   font-family: sweet;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 /* footer */
 
