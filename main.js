@@ -25,11 +25,3 @@ window.addEventListener("load", () => {
 // }
 
 
-/* smooth_btn */
-
-// const toTop = document.querySelector('.toTop')
-
-// toTop.addEventListener('click', ()=>{
-//     window.scrollTo({left:0, top:0, behavior:'smooth'})
-// })
-
